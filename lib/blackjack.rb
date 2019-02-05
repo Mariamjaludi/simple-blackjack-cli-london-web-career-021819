@@ -60,7 +60,7 @@ end
 #####################################################
 # get every test to pass before coding runner below #
 #####################################################
-
+=begin
 def runner
   # code runner here
   prompt_user
@@ -73,3 +73,4 @@ def runner
     prompt_user
   end
 end
+=end
