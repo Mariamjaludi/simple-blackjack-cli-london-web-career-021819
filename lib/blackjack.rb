@@ -60,17 +60,11 @@ end
 #####################################################
 # get every test to pass before coding runner below #
 #####################################################
-=begin
+
 def runner
   # code runner here
-  prompt_user
-  if user_input == 'h'
-    hit?
-  elsif user_input == 's'
-    stay?
-  elsif
-    invalid_command
-    prompt_user
-  end
+  welcome
+  card_total = initial_round
+  
+
 end
-=end
